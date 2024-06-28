@@ -38,11 +38,11 @@ p {
 }
 section{
     position: relative;
-    height: 100vh;    
+    height: 100vh;  
+    background: url('/Portifolio/imagens/MauroRenato.jpg') no-repeat;
 }
 
-section#foto{
-    background: url('/Portifolio/imagens/MauroRenato.jpg') no-repeat;
+section#foto{    
     width: 600px;
     height: 592px;
     
