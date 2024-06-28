@@ -13,13 +13,22 @@ body {
     margin: 0px;
     padding: 0px;
     background-color: gray;
+    
 }
 main{
+    min-width: 300px;
+    max-width: 900px;
+    height: 600px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 20px;
+    background-color: rgb(211, 211, 211);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.747);    
+    border-top-left-radius: 30px ;
+    border-top-right-radius: 30px ;
     
-
-    /*pode ser assim também
-    border-radius: 0px 0px 10px 10px;    
-    */
+    
 }
 
 header {
@@ -36,6 +45,7 @@ h1 {
     color: white;              
     font-family: var(--fonte2);
     font-size: 4.5em;
+    font-variant: small-caps;
 }
 p {
     padding-top: 2px;
@@ -43,27 +53,28 @@ p {
     margin: 0px;    
     font-size: 1.5em;    
 }
-section{    
-    margin: auto;        
-    background: url('../imagens/MauroRenato.jpg') no-repeat;
-    background-size: 560px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.747);
+section{
+    width: 900px;
+    height: 600px;
+    background: url("/Portifolio/imagens/MauroRenato.jpg") no-repeat;
+    background-size: cover;
+    
 }
 
 section#foto{  
-    margin-top: 20px;  
-    border-radius: 20px 20px 0px 0px;
-    height: 520px;  
-    min-width: 300px;
-    max-width: 520px;
+    
+    padding: 20px;  
+    margin: auto;
+       
+
+   
 }
 
 nav{
     text-align: center;
     padding-top: 6px; 
 }
-nav > a {   
-               
+a {              
     font-family: var(--fonte1); 
     font-size: 1.1em;     
     
@@ -72,12 +83,13 @@ nav > a {
     text-decoration: none;
     font-weight: bold;            
 }
-nav a:hover {
+a:hover {
     text-decoration: underline;    
 }
 footer{
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
     text-align: center;
+    font-variant: small-caps;
 }
 
