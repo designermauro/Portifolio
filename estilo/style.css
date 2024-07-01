@@ -7,74 +7,61 @@
 
     --fonte2: "Passion One", sans-serif;    
 }
-*{ 
-    width: 70vh;
-    margin: 0px;
-    padding: 0px;
-}
-   
-body { 
-    display: inline-block;
-    margin: auto;  
-    background-image: linear-gradient(to bottom, rgb(248, 248, 5) ,rgb(245, 24, 35));
-    
+*{
+    text-align: center;
 }
 
-header {
-    max-width: 800px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 10px;
-    margin: 10px;       
-    background-color: black; 
-    border-radius: 0px 0px 25px 25px;
-    text-align: center;
+body{
+    height: 100vh;
+    background-color: black;
+    background-image: url('../imagens/fundoEscuro2.jpg');
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: 100vh;
+    background-attachment: fixed;        
 }
-h1 {
+
+ header {          
     padding: 5px;
-    margin: 0;    
-    color: white;              
+    margin: 0px;   
+    border-radius: 0px 0px 20px 20px;  
+    background-size: 500px; 
+    background-color: rgba(255, 255, 255, 0.164);      
+}
+
+h1 {
     font-family: var(--fonte2);
-    font-size: 4.5em;
-    font-variant: small-caps;
-}
-p {
-    padding-top: 2px;
-    padding-bottom: 2px;
-    color: grey;
-    margin: 0px;    
-    font-size: 1.5em;    
-}
-nav{
     text-align: center;
-    padding-top: 6px; 
-    padding-bottom: 10px;
+    margin: 0px;
 }
-a {              
-    font-family: var(--fonte1); 
-    font-size: 1.1em;     
-    
-    color: rgb(124, 8, 8);
-    
+header > p {
+    padding: 0px;
+    margin: 5px;
+}
+
+nav{
+    font-family: var(--fonte2);
+    text-align: center;  
+    padding: 5px;   
+}
+
+nav >a {    
+    color: black;
+    font-size: 1.5em;
     text-decoration: none;
-    font-weight: bold;            
+    padding: 5px;
 }
-a:hover {
-    text-decoration: underline;    
+
+a:hover{
+    text-decoration: underline;
+    color: rgba(0, 0, 0, 0.726);
 }
-main{
-    min-width: 300px;
-    max-width: 900px;
-    margin: auto;
-    margin-bottom: 10px;
-    padding: 20px;
-}
+
+
 
 
 footer{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: black;
     text-align: center;
-    font-variant: small-caps;
 }
-
