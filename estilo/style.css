@@ -21,26 +21,31 @@ body{
     background-attachment: fixed;        
 }
 
- header {   
-          
+ header{ 
+    min-width: 300px;
+    max-width: 650px;
+    margin: auto; 
     padding: 5px;
-    margin: 0px;   
-    border-radius: 0px 0px 20px 20px;
-    background-position: left center; 
-    background-size: 500px; 
-    background-color: rgba(255, 255, 255, 0.164); 
-       
+    border-radius: 0px 0px 20px 20px;    
+    background-position: left center;     
+    background-color: rgba(255, 255, 255, 0.342); 
+    box-shadow: 0px 3px 15px 2px black;       
 }
 
 h1 {
     font-family: var(--fonte2);
+    font-size: 3em;
+    font-variant: small-caps;
     text-align: center;
-    margin: 0px;
+    margin: 0px;   
+    
 }
 header > p {
     padding: 0px;
     margin: 5px;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: rgb(17, 17, 136);
+    font-weight: bolder;
 }
 p.nome{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -51,27 +56,31 @@ p.nome{
 nav{
     font-family: var(--fonte2);
     text-align: center;  
-    padding: 5px; 
+    padding: 10px;
+    padding-top: 20px; 
       
 }
 
 nav >a {    
     color: rgb(90, 17, 17);
-    font-size: 1.5em;
+    font-size: 1.3em;
     text-decoration: none;
-    padding: 5px;
+    padding: 6px;
+    text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.356);
 }
 
 a:hover{
-    text-decoration: underline;
-    
+    text-shadow: 0px 0px 2px red;
+        
 }
 
-
-
-
-footer{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: black;
+footer{   
+    font-family: var(--fonte2);
+    padding: 10px;
+    color: black
     text-align: center;
+    position: absolute;
+    bottom: -20px;
+    width: 100%;
+    
 }
