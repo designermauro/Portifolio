@@ -7,15 +7,16 @@
 
     --fonte2: "Passion One", sans-serif;    
 }
-*{
+*{ 
+    width: 70vh;
     margin: 0px;
     padding: 0px;
 }
    
 body { 
-    width: 800px;
-    height: 98%hv;
+    display: inline-block;
     margin: auto;  
+    background-image: linear-gradient(to bottom, rgb(235, 235, 221) ,rgb(41, 22, 22));
     
 }
 
